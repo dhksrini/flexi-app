@@ -8,12 +8,11 @@ class Flexi extends Component{
 			"personsState": this.props.field.personsState,
 			"personName": this.props.field.personName
 		}
-		this.listLI = [];
 		this.handleStateChange = this.handleStateChange.bind(this);
 		this.handleNameChange = this.handleNameChange.bind(this);
 	}
 	componentDidMount(){		 
-		console.log('state are ',this.state);		 
+		// console.log('state are ',this.state);		 
 	}
 	handleStateChange = (event) => {
 		this.setState({"personsState": event.target.value});
