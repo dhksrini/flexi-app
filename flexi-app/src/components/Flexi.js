@@ -39,7 +39,7 @@ class Flexi extends Component{
 		})
 		return(
 			<form className="flexi-form" onSubmit={(event) => this.props.submitForm(event, this.state.personName, this.state.personsState)}>
-				<h2>Flexi app ready</h2>
+				<h2>Flexi app</h2>
 				{formLIST}
 				<input type="submit" value="Submit" className="btn btn-primary" />
 			</form>
